@@ -198,3 +198,96 @@ form {
 width: 100%;
 }
 }
+
+
+
+
+
+
+
+/* New CSS Features */
+
+/* Class Selector */
+.form-wrapper {
+  margin: 2em 0;
+}
+
+/* ID Selector */
+#feedback-section {
+  background-color: #e0e0e0;
+}
+
+/* Universal Selector */
+* {
+  box-sizing: border-box;
+}
+
+/* Element Selector */
+fieldset {
+  border: none;
+}
+
+/* Attribute Selector */
+input[type="checkbox"] {
+  margin-top: 1em;
+}
+
+/* Pseudo-class Selector */
+button:hover {
+  background-color: #0066cc;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Selector List */
+header, footer {
+  font-family: Arial, sans-serif;
+}
+
+/* Descendant Combinator */
+main section {
+  margin-top: 1em;
+}
+
+/* Child Combinator */
+form > fieldset {
+  margin-bottom: 1em;
+}
+
+/* General Sibling Combinator */
+h2 ~ p {
+  font-weight: bold;
+}
+
+/* Adjacent Sibling Combinator */
+h2 + ul, h2 + ol {
+  margin-top: -1em;
+}
+
+/* Combining Two Selectors */
+button.submit-btn {
+  background-color: #0066cc;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+}
+
+/* CSS Transformations (Optional) */
+button:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* CSS Animations (Optional) */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+  animation: fadeIn 1s ease;
+}
